@@ -5,7 +5,10 @@ metadata:
   namespace: kube-system
 spec:
   valuesContent: |-
-    allow-snippet-annotations: "true"
+    allowSnippetAnnotations: true
     controller:
       config:
+        allow-snippet-annotations: "true"
         enable-snippets: "true"
+
+
